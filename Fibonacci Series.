@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+int fib(int);// function declare
+int main()
+{
+int m;
+printf("\n Enter the total number of terms till you want Fibonaaci
+Series: ");
+scanf("%d", &m);
+printf("\n 0 1");
+fib(m - 2); //function calling
+}
+int fib(int m){ //defining function
